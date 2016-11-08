@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="自动化测试报告">
+  <parameter name="maxRetries"  value="2"/>   
+  <test name="interfacetest">
+ <!--<listeners>-->
+  <!--&lt;!&ndash;  <listener class-name="com.letvyidao.listener.TestngListener" /> &ndash;&gt; -->
+     <!--<listener class-name="com.letvyidao.listener.RetryListener" /> -->
+  <!--</listeners> -->
+<classes>
+    <class name="core.login.InitInfo">
+        <methods>
+             <include name="test_init"></include>
+         </methods>
+     </class>
+  </classes>
+  </test>
+</suite>

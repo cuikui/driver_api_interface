@@ -1,0 +1,6 @@
+car_id#50068337
+end_time#1465181999
+end_latitude#36.9022
+end_longitude#100.1522
+in_coord_type#baidu
+supercritical#1

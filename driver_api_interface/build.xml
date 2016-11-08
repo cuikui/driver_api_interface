@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="driver_interface" default="transform" basedir=".">
+	<echo message="import libs  sucess" />
+
+	<!-- 加载ant环境变量配置文件  把properties文件加载进来-->
+	<property file="build.properties">
+	</property>
+
+
+    <!--配置classpath环境变量  -->
+	<path id="master_classpath">
+		<fileset dir="${lib.path}">
+			<include name="**/*.jar" />
+		</fileset>
+        <pathelement path="${src.bin.path}" />
+	</path>
+
+
+
+    <tstamp>
+		<format property="CURTIME" pattern="yyyy-MM-dd HH-mm-ss" locale="cn" />
+	</tstamp>
+
+    <!--<taskdef name="testng" classname="${libs/test}" classpathref="master-classpath" />-->
+    <taskdef resource="testngtasks" classpath="libs/testng.jar" classpathref="master_classpath"  />
+
+    <!-- 任务：每次运行ant前清除报告文件  target 代表任务-->
+	<target name="clean">
+		<delete dir="${src.bin.path}" includes="**/*.class">
+		</delete>
+	</target>
+
+    <!-- 任务：创建文件  target: 创建存放报告的文件夹  depends 依赖  运行init之前先执行clean-->
+	<target name="init" depends="clean">
+		<mkdir dir="${src.bin.path}">
+		</mkdir>
+		<echo>report folder create success</echo>
+	</target>
+
+	<!-- 任务：编译src的源文件 -->
+	<target name="compile" depends="init">
+		<javac srcdir="${src.path}" destdir="${src.bin.path}" debug="on" encoding="UTF-8" includeantruntime="off" debuglevel="lines,vars,source">
+			<classpath refid="master_classpath">
+			</classpath>
+		</javac>
+		<!--echo 编译成功，打印结果 -->
+		<echo>compile src folder success</echo>
+	</target>
+
+	<!--任务：将编译src，test任务打包成单个任务 -->
+	<target name="run" depends="compile">
+		<testng classpathref="master_classpath" outputDir="test-output">
+			<xmlfileset dir="${basedir}" includes="testng*.xml" />
+			<jvmarg value="-ea" />
+		</testng>
+    </target>
+
+    <target name="transform" depends="run">
+		<echo>results start</echo>
+		<xslt in="/Users/yongche/Documents/comm/code/driver_api_interface/test-output/testng-results.xml" style="/Users/yongche/Documents/comm/code/driver_api_interface/test-output/testng-results.xsl"
+			out="/Users/yongche/Documents/comm/code/driver_api_interface/test-output/report/${CURTIME}/index.html ">
+			<!-- you need to specify the directory here again -->
+			<param name="testNgXslt.outputDir" expression="/Users/yongche/Documents/comm/code/driver_api_interface/test-output/report/${CURTIME}" />
+			<param name="testNgXslt.showRuntimeTotals" expression="true"/>
+			<classpath refid="master_classpath" />
+		</xslt>
+		<echo>results end</echo>
+	</target>
+</project>

@@ -1,0 +1,12 @@
+user_id#5569
+corporate_id#0
+city#bj
+product_type_id#1
+car_type_ids#1,2
+expect_start_time#1460462426
+expect_end_latitude#1
+expect_end_longitude#1
+app_version#6.3.8
+source#10000001
+is_bind_card#1
+service_order_id#1

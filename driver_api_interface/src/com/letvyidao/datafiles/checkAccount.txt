@@ -1,0 +1,16 @@
+user_id#8060
+service_order_id#123
+corporate_id#123
+product_type_id#1
+city#bj
+fixed_product_id#123
+car_type_id#123
+method#
+    "Name=user_id", "Value=8060", ENDITEM, 
+    "Name=service_order_id", "Value=123", ENDITEM, 
+    "Name=corporate_id", "Value=0", ENDITEM, 
+    "Name=product_type_id", "Value=1", ENDITEM, 
+    "Name=city", "Value=bj", ENDITEM, 
+    "Name=fixed_product_id", "Value=123", ENDITEM,
+    "Name=car_type_id", "Value=123", ENDITEM,
+    "Name=method", "Value=checkDeposit", ENDITEM, 

@@ -1,0 +1,5 @@
+Parameter_file_name#driveArrived,startTiming,endTiming,confirmCharge
+driveArrived#state/DriveArrived?arrive_time=1465181999&arrive_latitude=36.9022&arrive_longitude=100.1522&in_coord_type=baidu
+startTiming#state/startTiming?start_time=1465181999&start_latitude=36.9022&start_longitude=100.1522&in_coord_type=baidu&driver_version=81
+endTiming#state/endTiming?end_time=1465181999&end_latitude=36.9021&end_longitude=100.1521&in_coord_type=baidu&supercritical=1
+confirmCharge#state/confirmCharge?start_time=1465181999&end_time=1465185555&supercritical=1&mileage=1&highway_amount=0&parking_amount=0

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/pay/!svn/ver/10985/automation/letv-interface/letvinterface/libs
+END
+json-lib-2.4-jdk15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/pay/!svn/ver/10419/automation/letv-interface/letvinterface/libs/json-lib-2.4-jdk15.jar
+END
+testng-6.9.9-javadoc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/pay/!svn/ver/10419/automation/letv-interface/letvinterface/libs/testng-6.9.9-javadoc.jar
+END
+httpclient-4.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/pay/!svn/ver/10419/automation/letv-interface/letvinterface/libs/httpclient-4.5.1.jar
+END
+testng-6.9.9-sources.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/pay/!svn/ver/10419/automation/letv-interface/letvinterface/libs/testng-6.9.9-sources.jar
+END
+mysql-jdbc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/pay/!svn/ver/10419/automation/letv-interface/letvinterface/libs/mysql-jdbc.jar
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/pay/!svn/ver/10985/automation/letv-interface/letvinterface/libs/activation.jar
+END
+mail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/pay/!svn/ver/10985/automation/letv-interface/letvinterface/libs/mail.jar
+END
+httpcore-4.4.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/pay/!svn/ver/10419/automation/letv-interface/letvinterface/libs/httpcore-4.4.3.jar
+END
+testng-6.9.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/pay/!svn/ver/10419/automation/letv-interface/letvinterface/libs/testng-6.9.9.jar
+END
+json-lib-1.1-jdk13.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/pay/!svn/ver/10419/automation/letv-interface/letvinterface/libs/json-lib-1.1-jdk13.jar
+END
+ojdbc14.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/pay/!svn/ver/10700/automation/letv-interface/letvinterface/libs/ojdbc14.jar
+END
+jcommander-1.48.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/pay/!svn/ver/10419/automation/letv-interface/letvinterface/libs/jcommander-1.48.jar
+END
+commons-codec-1.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/pay/!svn/ver/10419/automation/letv-interface/letvinterface/libs/commons-codec-1.9.jar
+END
+commons-logging-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/pay/!svn/ver/10419/automation/letv-interface/letvinterface/libs/commons-logging-1.2.jar
+END

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="自动化测试报告" duration-ms="164" started-at="2016-11-06T23:25:07Z" finished-at="2016-11-06T23:25:08Z">
+    <groups>
+    </groups>
+    <test name="interfacetest" duration-ms="164" started-at="2016-11-06T23:25:07Z" finished-at="2016-11-06T23:25:08Z">
+      <class name="core.login.InitInfo">
+        <test-method status="PASS" signature="init()[pri:0, instance:core.login.InitInfo@757277dc]" name="init" is-config="true" duration-ms="5" started-at="2016-11-07T07:25:07Z" finished-at="2016-11-07T07:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test_initInfo()[pri:0, instance:core.login.InitInfo@757277dc]" name="test_initInfo" duration-ms="148" started-at="2016-11-07T07:25:07Z" description="获取所有城市信息列表" finished-at="2016-11-07T07:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_initInfo -->
+      </class> <!-- core.login.InitInfo -->
+    </test> <!-- interfacetest -->
+  </suite> <!-- 自动化测试报告 -->
+</testng-results>

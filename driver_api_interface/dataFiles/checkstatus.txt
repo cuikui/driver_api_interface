@@ -1,0 +1,8 @@
+user_id#830801
+service_order_id#16800000009
+corporate_id#0
+product_type_id#1
+city#bj
+fixed_product_id#123
+car_type_id#123
+method#checkDeposit

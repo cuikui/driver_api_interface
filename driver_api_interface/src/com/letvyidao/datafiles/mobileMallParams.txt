@@ -1,0 +1,32 @@
+version#1.0
+service#lepay.app.api.show.cashier
+merchant_business_id#27
+user_id#177319825
+notify_url#http://payment.go.lemall.com/v3/payment/v2/backLeZFNotify.json
+merchant_no#4047480878164
+out_trade_no#40474808781641458787700395
+price#29.50
+currency#CNY
+pay_expire#1439
+product_id#lemall_product
+product_name#乐视商城商品
+product_desc#乐视商城商品
+timestamp#2016-03-24 10:48:20
+key_index#1
+input_charset#UTF-8
+ip#111.206.211.57
+sign_type#MD5
+hb_fq#
+d_app_version#2.0
+d_model#TCL P331M
+d_terminal#PHONE
+d_imsi#460024104124936
+d_imei#864908028673290
+d_os_version#19
+d_display#480*854
+d_sdk_version#2.0
+d_ram#948461568
+d_package_version#151
+d_package_name#1.5.1
+d_wifi_mac#d0:9d:ab:6a:a3:1b
+d_net#WIFI

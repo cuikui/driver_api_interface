@@ -1,0 +1,13 @@
+type#1
+car_id#895
+car_type_id#1
+car_type#经济车型
+vehicle_number#京A12345
+car_brand#奥迪
+driver_id#1148
+driver_name#张三
+driver_phone#12345678
+coupon_member_id#23232
+third_party_coupon#0
+reason_id#63001
+is_assignedz#1

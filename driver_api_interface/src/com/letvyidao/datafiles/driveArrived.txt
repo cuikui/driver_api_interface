@@ -1,0 +1,5 @@
+car_id#50068337
+arrive_time#1465181999
+arrive_latitude#39.989910038478
+arrive_longitude#116.31401996887
+in_coord_type#baidu

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoginCases]">
+  <test name="LoginTest(failed)">
+    <groups>
+      <run>
+        <include name="loginTestCC"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testing.testcase.LoginTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="login" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.testing.testcase.LoginTest -->
+      <class name="com.testing.testcase.HomeTest">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.testing.testcase.HomeTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [LoginCases] -->

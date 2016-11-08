@@ -1,0 +1,6 @@
+car_id#50068337
+start_time#1465181999
+start_latitude#36.9022
+start_longitude#100.1522
+in_coord_type#baidu
+driver_version#81

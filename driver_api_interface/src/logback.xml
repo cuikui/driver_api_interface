@@ -1,0 +1,42 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<configuration>-->
+    <!--&lt;!&ndash;定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
+    <!--<property name="LOG_HOME" value="/yidao-monitor/logs" />  -->
+    <!--&ndash;&gt;  -->
+    <!--<property name="LOG_HOME" value="D:/logs" />  -->
+    <!--&lt;!&ndash; 控制台输出 &ndash;&gt;   -->
+    <!--<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">-->
+       <!--&lt;!&ndash; 日志输出编码 &ndash;&gt;  -->
+       <!--<Encoding>UTF-8</Encoding>   -->
+        <!--<layout class="ch.qos.logback.classic.PatternLayout">   -->
+             <!--&lt;!&ndash;格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符&ndash;&gt; -->
+            <!--<pattern>%d{HH:mm:ss} %level [%logger{10}.%M:%L] %msg%n  -->
+            <!--</pattern>   -->
+        <!--</layout>   -->
+    <!--</appender>   -->
+    <!--&lt;!&ndash; 按照每天生成日志文件 &ndash;&gt;   -->
+    <!--<appender name="FILE"  class="ch.qos.logback.core.rolling.RollingFileAppender">   -->
+        <!--<Encoding>UTF-8</Encoding>   -->
+        <!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+            <!--&lt;!&ndash;日志文件输出的文件名&ndash;&gt;-->
+            <!--<FileNamePattern>${LOG_HOME}/monitor_YiDao.log.%d{yyyy-MM-dd}.log</FileNamePattern>   -->
+            <!--<MaxHistory>30</MaxHistory>-->
+        <!--</rollingPolicy>   -->
+        <!--<layout class="ch.qos.logback.classic.PatternLayout">  -->
+            <!--&lt;!&ndash;格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符&ndash;&gt; -->
+            <!--<pattern>%d{HH:mm:ss} %level [%logger{10}.%M:%L] %msg%n-->
+            <!--</pattern>   -->
+       <!--</layout> -->
+        <!--&lt;!&ndash;日志文件最大的大小&ndash;&gt;-->
+       <!--<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">-->
+         <!--<MaxFileSize>200MB</MaxFileSize>-->
+       <!--</triggeringPolicy>-->
+    <!--</appender> -->
+    <!-- -->
+    <!--&lt;!&ndash; 日志输出级别 &ndash;&gt;-->
+    <!--<root level="INFO">   -->
+        <!--<appender-ref ref="STDOUT" />   -->
+        <!--<appender-ref ref="FILE" />   -->
+    <!--</root> -->
+     <!-- -->
+<!--</configuration>-->
